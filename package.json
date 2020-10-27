@@ -1,0 +1,33 @@
+{
+  "name": "vue-cli-plugin-freshinup",
+  "version": "0.8.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js index.js prompts.js generator/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freshinup/vue-cli-plugin-freshinup.git"
+  },
+  "description": "vue-cli plugin for Fresh Platform UI",
+  "author": "FreshinUp",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@freshinup/core-ui": "git+ssh://git@github.com/freshinup/core-ui.git",
+    "@vue/cli-service": "^3.11.0",
+    "@vue/cli-shared-utils": "^3.11.0",
+    "eslint": "^6.4.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "jest-date-mock": "^1.0.7",
+    "lodash": "^4.17.15"
+  }
+}

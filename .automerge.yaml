@@ -1,0 +1,8 @@
+merge:
+  blacklist:
+    # a PR may not have these labels set
+    labels: ["🚧 WIP", "⚠️ Changes requested", "🌟 Needs more Approvals"]
+  # merge method, see https://help.github.com/en/articles/about-merge-methods-on-github
+  # one of: merge, squash, rebase
+  method: merge
+  delete_after_merge: true
